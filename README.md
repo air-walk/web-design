@@ -9,3 +9,10 @@
             box-sizing: border-box;
 }
 ```
+2. **flex-boxing:**
+```css
+.parent-container {
+  display: -webkit-flex;
+  display: flex;
+}
+```
