@@ -12,7 +12,8 @@
 2. **flex-boxing:**
 ```css
 .parent-container {
-  display: -webkit-flex;
-  display: flex;
+  display:   -webkit-flex;
+  display:   flex;
+  flex-wrap: wrap;
 }
 ```
