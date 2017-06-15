@@ -51,3 +51,6 @@ img {
 * [GruntJS](https://gruntjs.com)
 * [ImageOptim](https://imageoptim.com)
 * [ImageMagick](http://git.imagemagick.org/repos/ImageMagick)
+8. **Analyzing page load speeds:**
+* [PageSpeed Tools](https://developers.google.com/speed/pagespeed/insights/)
+* [YSlow](http://yslow.org/)
