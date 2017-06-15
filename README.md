@@ -47,3 +47,7 @@ img {
     height: 100vh;   /* means 100% of viewport height */
 }
 ```
+7.**Incorporating responsive/efficient images in your workflow:**
+* [GruntJS](https://gruntjs.com)
+* [ImageOptim](https://imageoptim.com)
+* [ImageMagick](http://git.imagemagick.org/repos/ImageMagick)
