@@ -33,3 +33,10 @@
   </body>
 </html>
 ```
+4. **Allow an image to expand only as large as its natural width:**
+```css
+img {
+    max-width: 100%
+}
+```
+5. **If you're using Bootstrap, make the images responsive using `img-responsive` CSS class**
