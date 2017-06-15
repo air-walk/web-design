@@ -40,3 +40,10 @@ img {
 }
 ```
 5. **If you're using Bootstrap, make the images responsive using `img-responsive` CSS class**
+6. **Setting width or height of an element to viewport width or height in CSS:**
+```css
+img {
+    width:  100vw;   /* means 100% of viewport width  */
+    height: 100vh;   /* means 100% of viewport height */
+}
+```
