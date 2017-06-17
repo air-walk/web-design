@@ -58,3 +58,4 @@ img {
 ```python
 python -m SimpleHTTPServer
 ```
+10. **[Unicode table](https://unicode-table.com/en/)**
