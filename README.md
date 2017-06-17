@@ -59,3 +59,12 @@ img {
 python -m SimpleHTTPServer
 ```
 10. **[Unicode table](https://unicode-table.com/en/)**
+11. **Selectively download images:**
+    1. **Based on Device Pixel Ratio (DPR):**
+    ```html
+      <img src="image_2x.jpg" srcset="image_2x.jpg 2x, image_1x.jpg 1x" alt="a cool image">
+    ```
+    2. **Based on image width:**
+    ```html
+      <img src="image_200.jpg" srcset="image_200.jpg 200w, image_100.jpg 100w" alt="a cool image">
+    ```
