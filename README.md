@@ -91,3 +91,11 @@ python -m SimpleHTTPServer
         <img src="kitten-small.jpg" alt="Cute kitten">
     </picture>
     ```
+    A full blown example (full monty):
+    ```html
+      <picture>
+        <source media="(min-width: 1000px)" srcset="kookaburra_large_1x.jpg 1x, kookaburra_large_2x.jpg 2x">
+        <source media="(min-width:  500px)" srcset="kookaburra_medium_1x.jpg 1x, kookaburra_medium_2x.jpg 2x">
+        <img src="kitten-kookaburra_small.jpg" alt="The kookaburra: A terrestrial tree kingfisher native to Australia and New Guinea (according to Wikipedia)">
+      </picture>
+    ```
