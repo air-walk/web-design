@@ -75,3 +75,11 @@ python -m SimpleHTTPServer
             srcset="images/great_pic_400.jpg 400w, images/great_pic_800.jpg 800w"
             alt="great picture">
     ```
+12. **`picture` for specifying alternate formats based on device capabilities:**
+    ```html
+    <picture>
+        <source srcset="kittens.webp" type="image/webp">
+        <source srcset="kittens.jpg" type="image/jpeg">
+        <img src="kittens.jpg" alt="Two grey tabby kittens">
+    </picture>
+    ```
