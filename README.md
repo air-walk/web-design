@@ -83,3 +83,11 @@ python -m SimpleHTTPServer
         <img src="kittens.jpg" alt="Two grey tabby kittens">
     </picture>
     ```
+    You can also use media queries with it:
+    ```html
+    <picture>
+        <source media="(min-width: 650px)" srcset="kitten-large.png">
+        <source media="(min-width: 465px)" srcset="kitten-medium.png">
+        <img src="kitten-small.jpg" alt="Cute kitten">
+    </picture>
+    ```
