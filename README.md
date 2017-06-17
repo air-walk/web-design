@@ -54,3 +54,7 @@ img {
 8. **Analyzing page load speeds:**
 * [PageSpeed Tools](https://developers.google.com/speed/pagespeed/insights/)
 * [YSlow](http://yslow.org/)
+9. **Turn any direcotory on your system into a webserver directory:**
+```python
+python -m SimpleHTTPServer
+```
