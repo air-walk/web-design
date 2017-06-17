@@ -71,7 +71,7 @@ python -m SimpleHTTPServer
     3. **With `sizes` attribute and `@media` queries; when you don't want images at 100% width of the viewport:**
     ```html
       <img  src="images/great_pic_800.jpg"
-        sizes="(max-width: 400px) 100vw, (min-width: 401px) 50vw"
-        srcset="images/great_pic_400.jpg 400w, images/great_pic_800.jpg 800w"
-        alt="great picture">
+            sizes="(max-width: 400px) 100vw, (min-width: 401px) 50vw"
+            srcset="images/great_pic_400.jpg 400w, images/great_pic_800.jpg 800w"
+            alt="great picture">
     ```
