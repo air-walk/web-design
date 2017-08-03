@@ -99,3 +99,6 @@ python -m SimpleHTTPServer
         <img src="kitten-kookaburra_small.jpg" alt="The kookaburra: A terrestrial tree kingfisher native to Australia and New Guinea (according to Wikipedia)">
       </picture>
     ```
+
+## To be explored:
+1. [html5-boilerplate](https://github.com/h5bp/html5-boilerplate)
