@@ -1,4 +1,4 @@
-# web-design
+# Web Design Cheatshieet
 
 1. **border-boxing:**
 ```css
